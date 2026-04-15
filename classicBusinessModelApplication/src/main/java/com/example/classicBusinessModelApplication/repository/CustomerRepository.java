@@ -1,9 +1,8 @@
-package com.example.classicBusinessModelApplication.repository;
+package com.example.classicBusinessModelApplication.Repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.classicBusinessModelApplication.entityClasses.Customer;
+import com.example.classicBusinessModelApplication.Entity.Customer;
 
-public interface CustomerRepository extends JpaRepository<Customer, Integer>  {
 
-}
+public interface CustomerRepository extends JpaRepository<Customer, Integer> {}
